@@ -44,6 +44,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="START">
                                     <fontDescription key="titleFontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lg4-tf-02Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -66,6 +69,12 @@
                             <constraint firstItem="b38-Pa-lIx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="sbA-tT-MfP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenView" destination="489-bj-hWj" id="JP5-D6-sDm"/>
+                        <outlet property="redView" destination="b38-Pa-lIx" id="ZFm-uh-ako"/>
+                        <outlet property="startButton" destination="ciR-J5-6Zh" id="rie-oD-gU1"/>
+                        <outlet property="yellowView" destination="Qhi-1d-aKQ" id="b3q-dV-7AB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
